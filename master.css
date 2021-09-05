@@ -1,0 +1,14 @@
+#header {
+    position: fixed;
+}
+
+#nav-bar {
+    float: right;
+}
+
+@media (min-width: 350px) {
+    #nav-bar {
+        display: flex;
+        flex-direction: row;
+    }
+}
