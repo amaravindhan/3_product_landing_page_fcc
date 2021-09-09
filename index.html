@@ -1,38 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="master.css">
-        <title>Secure Copier</title>
-    </head>
-    <body>
-        <header id="header">
-            <img id="header-img" src="#" />
-            <nav id="nav-bar">
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#how-it-works" class="nav-link">HowItWorks</a>
-                <a href="#pricing" class="nav-link">Pricing</a>
-            </nav>
-        </header>
-        <main>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" class="form-control" required />
-                </div>
-                <div class="form-group">
-                    <input type="submit" id="submit" value="Subscribe" />
-                </div>
-            </form>
-            <section id="features">
-            </section>
-            <section id="how-it-works">
-                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/cQQ6TfD1aLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </section>
-            <section id="pricing">
-            </section>
-        </main>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="master.css" />
+    <title>Secure Copier</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <a href="/" class="nav-link">
+          <img id="header-img" src="images/logo.png" alt="Secure Copier logo" />
+        </a>
+      </div>
+      <nav id="nav-bar">
+        <ul id="nav-list">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#how-it-works" class="nav-link">HowItWorks</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="home">
+        <div class="home-intro">
+          <h1 id="title">Secure Copier 2.0</h1>
+          <p>
+            Lock, encrypt, password protect USB flash drive, thumb drive, pen
+            drive, memory stick, and other portable storage devices.
+          </p>
+          <ul>
+            <li>
+              Password Protect USB flash drive, pen drive, memory card, thumb
+              drive, etc.
+            </li>
+            <li>Lock your USB drive in 3 simple steps.</li>
+            <li>
+              Protect your files automatically after the USB disk plugs into a
+              PC.
+            </li>
+            <li>Enjoy protection anytime and anyplace without installation.</li>
+            <li>
+              Lock and unlock USB drives on any computer without installation.
+            </li>
+          </ul>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="inline-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                class="form-control inline-input"
+                required
+              />
+            </div>
+            <div class="inline-group">
+              <input
+                type="submit"
+                class="inline-button"
+                id="submit"
+                value="Notify Me!"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="home-image">
+          <h1 id="title">Secure Copier</h1>
+        </div>
+      </section>
+      <section id="features">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          vitae unde eum! Sapiente culpa quae modi sed, quas distinctio
+          reprehenderit, inventore consequatur quam sint doloribus eos corrupti
+          eligendi omnis excepturi!
+        </p>
+      </section>
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/cQQ6TfD1aLc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="pricing"></section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

@@ -1,9 +1,118 @@
-#header {
-    position: fixed;
+:root {
+    --color-blue: #1A81FF;
+    --color-yellow: #FF991A;
+    --color-white: #f5f4f2;
+    --color-black: #000000;
 }
 
-#nav-bar {
-    float: right;
+body {
+    font-family: 'Times New Roman',
+        Times,
+        serif;
+    color: var(--color-black);
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    min-height: 60px;
+    padding: 0 20px;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    min-width: 60vw;
+}
+
+#header-img {
+    width: 20vw;
+}
+
+#nav-list {
+    min-width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--color-black);
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: var(--color-black);
+    opacity: 0.7;
+}
+
+#home {
+    margin-top: 3.6rem;
+    padding: 50px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-intro {
+    min-width: 50%;
+}
+
+.home-image {
+    min-width: 50%;
+}
+
+#form {
+    /* display: flex; */
+}
+
+.inline-group {
+    display: inline;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.form-control {
+    height: 2rem;
+    padding: 0.35rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-yellow);
+    transition: border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.inline-button {
+    margin-left: -15px;
+    height: 2.83rem;
+    padding: 0.35rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--color-yellow);
+    border-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+    background-color: var(--color-yellow);
+    cursor: pointer;
+}
+
+
+#features {}
+
+#how-it-works {
+    background-color: var(--color-blue);
 }
 
 @media (min-width: 350px) {
